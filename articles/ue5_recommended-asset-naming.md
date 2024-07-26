@@ -14,7 +14,6 @@ UE Version : 5.4.3
 「金を掘るより、⛏を作ろう！」プロジェクトではゲーム制作をしながら、ゲーム制作に必要になった知見やツールを発信するプロジェクトです。
 今回はゲーム制作開始時にアセット名の意識合わせをする際に発生した問題を共有します。
 
-
 ## スケルタルメッシュのプレフィックスの名前は？
 
 現在開発しているゲームのプレイヤーとなる桃「シャーピー（Sharpea）」のSkeletalMesh（骨が入っている3Dモデル）のFBX「SK_Sheapea.fbx」をインポートすると以下のアセットが生成されます。
@@ -108,6 +107,58 @@ Epic公式からさまざまなプロジェクトが公開されています。
 個人的には、UE5で使用できるアセットがほとんど入っている「機能別サンプル」を参考にしています。
 
 ![](/images/articles/ue5_recommended-asset-naming/2024-07-24-17-43-50.png)
+
+## Epic公式から配布されているプロジェクトを調査してみる
+
+気になったのでEpic公式から配布されているプロジェクトの命名規則を調査してみました。
+「公式ドキュメントは推奨とされていて、絶対ではないのではない」という結果になりました。
+
+### 機能別サンプルの場合
+
+長年機能が追加されているせいか、命名規則にはバラツキがありました。
+
+#### SkeletalMesh
+
+公式のサンプルも担当者によって命名規則は揃っていないようです。
+
+- Prefixは付けない
+- S_
+- SK_
+- SKM_
+- CLOTH_（Clothの説明用のアセットのため特例？）
+
+![](/images/articles/ue5_recommended-asset-naming/T_2024-07-26-19-13-04.png)
+
+#### Skeleton
+
+SkeltonはSuffixを「_Skeleton」に設定しているケースが多かったです。
+
+- Suffixを「_Skeleton」
+- SK_ (SKM_に対して)
+
+![](/images/articles/ue5_recommended-asset-naming/T_2024-07-26-19-18-42.png)
+
+#### PhysicsAsset
+
+PhysicsAssetはPrefixを「PA_」と設定するケースが多かったです。
+
+- PA_(Asset名)
+- SK_(Asset名)_Physics
+- SK_(Asset名)_PhysicsAsset
+
+![](/images/articles/ue5_recommended-asset-naming/T_2024-07-26-19-22-22.png)
+
+### Stack O Botの場合
+
+1つのゲームプロジェクトのため、命名規則が統一されていました。
+
+| アセット名    | アセットの種類 |
+| ------------- | -------------- |
+| SKM_(Asset名) | SkeletalMesh   |
+| PhA_(Asset名) | 物理アセット   |
+| SK_(Asset名)  | Skeleton       |
+
+![](/images/articles/ue5_recommended-asset-naming/T_2024-07-26-19-36-37.png)
 
 ## 参考にしたURL
 
