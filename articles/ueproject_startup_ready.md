@@ -1,5 +1,5 @@
 ---
-title: "UnrealEngineで開発するときに決めておきたいこと"
+title: "Unreal Engineで開発するときに決めておきたいこと"
 emoji: "🧳"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["ue5","unrealengine"]
