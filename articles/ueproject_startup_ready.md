@@ -4,7 +4,7 @@ emoji: "🧳"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["ue5","unrealengine"]
 publication_name: "coyote_tateam"
-published: false
+published: true
 ---
 
 Uneral Engineでようやくプレイヤーキャラクターが動き出しました。
@@ -24,7 +24,7 @@ https://twitter.com/Pickaxe_TA/status/1818571201830437226
 
 - プロジェクトの説明
   - プレゼン資料
-    - 偉い人を説得する用
+    - チーム・社内の権限がある人を説得する用
     - メンバーを募集する用
 
 プロジェクトが認可されたら、作る作品についての資料を用意しました。
@@ -53,11 +53,13 @@ https://twitter.com/Pickaxe_TA/status/1818571201830437226
   - Notion
     - プロジェクトの構造
     - 使い方
-  - 広報（X）
+  - 広報
+    - X
+    - 技術書典  
 - 使用するツール（DCCツール、バージョン管理ツール）
-  - バージョン
-  - 命名規則
+  - フォルダ構成・アセットの命名規則
   - 使用方法
+    - ツールの使用するバージョン
     - メンバー間で使い方に差異があるので、プロジェクトでなるべく早く決めておく
 
 ### Unreal Engine 関連
@@ -71,6 +73,30 @@ https://twitter.com/Pickaxe_TA/status/1818571201830437226
 
 https://zenn.dev/coyote_tateam/articles/ue5_recommended-asset-naming
 
+参考になりそうな動画：
+
+https://www.youtube.com/watch?v=q28KMKjUZkI
+
 ### アセット作成関連
 
+- アセットの管理方法について
+  - 命名規則
+  - フォルダ階層
+- アセットの管理方法について
+  - 命名規則
+  - フォルダ階層
 
+## プロダクトをリリースする
+
+:::message
+リリース時に更新します。
+:::
+
+- アイコン
+- ロゴ
+
+## 参照URLまとめ
+
+https://zenn.dev/coyote_tateam/articles/ue5_recommended-asset-naming
+
+https://www.youtube.com/watch?v=q28KMKjUZkI
