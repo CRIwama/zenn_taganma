@@ -1,5 +1,5 @@
 ---
-title: "UnrealEngineの命名規則はどうしてる？"
+title: "Unreal Engineの命名規則はどうしてる？"
 emoji: "🐡"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["ue5","unrealengine"]
