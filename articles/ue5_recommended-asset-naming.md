@@ -165,3 +165,4 @@ PhysicsAssetはPrefixを「PA_」と設定するケースが多かったです�
 - [アセットの命名規則に関する推奨事項](https://dev.epicgames.com/documentation/ja-jp/unreal-engine/recommended-asset-naming-conventions-in-unreal-engine-projects)
 - [ue5-style-guide](https://github.com/akenatsu/ue4-style-guide/blob/master/README.jp.md)
 - [ue4-style-guide(日本語訳)](https://github.com/akenatsu/ue4-style-guide/blob/master/README.jp.md)
+- [Best practices for naming assets in Unreal Engine](https://unrealdirective.com/resources/asset-naming-conventions)
